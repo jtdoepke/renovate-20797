@@ -4,6 +4,7 @@ repositories:
   url: https://grafana.github.io/helm-charts
 requires:
 - chart: grafana/tempo-distributed
+  # renovate: depName=tempo-distributed registryUrl=https://grafana.github.io/helm-charts
   version: 1.0.1
 version: 1
 
