@@ -3,6 +3,7 @@
   "extends": [
     "config:base"
   ],
+  "baseBranches": ["renovate/configure"],
   "regexManagers": [
     {
       "description": "Update Tanka Helm chartfile.yaml",
